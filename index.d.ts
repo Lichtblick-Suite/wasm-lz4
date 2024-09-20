@@ -1,4 +1,4 @@
-declare module "@foxglove/wasm-lz4" {
+declare module "@lichtblick/wasm-lz4" {
   function decompress(buffer: Uint8Array, size: number): Buffer;
   namespace decompress {
     const isLoaded: Promise<boolean>;
